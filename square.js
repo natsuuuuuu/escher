@@ -9,6 +9,7 @@ let button;
 function setup(){
     createCanvas(500,500);
     scalar = height * 1.0/ num;
+    stroke("#fffacd");
     strokeWeight(5);
     button = createButton('+');
     button.position("20%", "100%");
@@ -60,7 +61,7 @@ function midPoint(p,q){
 }
 
 function deformedSquare(x,y){
-    fill("#ffc0cb");
+    fill("#006400");
     let v = [];
     let cp = [];
 
